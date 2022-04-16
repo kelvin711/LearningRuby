@@ -43,3 +43,21 @@ end
 
 doctor = Doctor.new("Kelvin")
 doctor.name
+
+# Because it’s a dynamic language, one clever thing you can do with 
+# Ruby is override existing classes and methods
+class Dog
+    def talk
+        puts "Woof!"
+    end
+end
+my_dog = Dog.new
+my_dog.talk
+#woof
+class Dog
+    def talk
+        puts "Howl!"
+    end
+end
+my_dog.talk
+#howl
