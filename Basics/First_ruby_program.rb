@@ -1,0 +1,1 @@
+puts "\nThis is our first Ruby script.\nIf you see this, so far so good!\n" ;
